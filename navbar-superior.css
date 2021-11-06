@@ -1,0 +1,50 @@
+.navbar-container-principal {
+  background-color: #fff159;
+}
+
+.navbar-container-max-width {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navbar-superior-container {
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-superior-container > div {
+  margin: 0 10px;
+}
+
+.navbar-search-container {
+  height: 40px;
+  display: flex;
+  flex: 1;
+}
+
+.navbar-search-input {
+  width: 100%;
+  padding: 7px 60px 9px 15px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  background-color: #fff;
+  border: 0 rgba(0, 0, 0, 0.2);
+}
+
+.navbar-search-icon {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.ad-img-container {
+  width: 90px;
+  height: 40px;
+}
+
+.ad-img {
+  width: 100%;
+  height: 100%;
+}
