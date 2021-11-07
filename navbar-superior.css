@@ -8,7 +8,7 @@
 }
 
 .navbar-superior-container {
-  height: 46px;
+  height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,12 +39,38 @@
   align-items: center;
 }
 
+.advertising-container {
+  display: flex;
+  width: 30%;
+}
+
+.advertising-left-container {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .ad-img-container {
-  width: 90px;
-  height: 40px;
+  width: 60px;
+  height: 30px;
 }
 
 .ad-img {
   width: 100%;
   height: 100%;
+}
+
+.advertising-left-container p {
+  font-size: 10px;
+}
+
+.advertising-right-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  margin-left: 10px;
 }

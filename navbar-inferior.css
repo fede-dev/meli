@@ -1,0 +1,77 @@
+.navbar-inferior-container {
+  height: 40px;
+  display: flex;
+}
+
+.send-location-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.place-location-icon {
+  padding-top: 10px;
+}
+
+.send-to-location-text {
+  font-size: 10px;
+}
+
+.send-to-country-text {
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.navbar-middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.dropdown-all-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdown-all-text {
+  font-size: 12px;
+}
+
+.links-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.links-container * {
+  margin: 0 5px;
+}
+
+.links-container p {
+  font-size: 12px;
+}
+
+.final {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.user-navbar-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.user-navbar-container * {
+  margin: 0 5px;
+}
+
+.user-navbar-container p {
+  font-size: 12px;
+}
+
+.cart-icon {
+  font-size: 15px;
+}
