@@ -9,12 +9,78 @@
 }
 
 .banner-left-content-container {
-  flex: 1;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+
+}
+
+.banner-section-title{
+  display: flex;
+  height: 25px;
+}
+
+.banner-section-icon{
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.car-icon-icon{
+  color:#fff;
+}
+
+.banner-section-text{
+  width: 80%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.banner-section-text p{
+  font-weight: 900;
 }
 
 .banner-title {
   font-size: 30px;
+  font-weight: bold;
 }
+
+.porcentage-text-container{
+  display: flex;
+  justify-content: end;
+}
+
+.porcentage-right-title{
+ 
+}
+
+.porcentage-number{
+  width: 70px;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.porcentage-number p{
+ font-size: 60px;
+ font-weight: bolder;
+ 
+}
+
+.porcentage-icon{
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+
+}
+
+
 
 .arrow-container {
   position: absolute;
@@ -55,8 +121,9 @@
 
 .palito-pablito {
   background-color: black;
-  width: 10px;
+  width: 5px;
   flex: 1;
+  
 }
 
 .porcentage-right-container {
