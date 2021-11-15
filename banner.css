@@ -9,18 +9,17 @@
 }
 
 .banner-left-content-container {
- display: flex;
- flex-direction: column;
- justify-content: center;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.banner-section-title{
+.banner-section-title {
   display: flex;
   height: 25px;
 }
 
-.banner-section-icon{
+.banner-section-icon {
   width: 20%;
   display: flex;
   justify-content: center;
@@ -28,19 +27,19 @@
   background-color: black;
 }
 
-.car-icon-icon{
-  color:#fff;
+.car-icon-icon {
+  color: #fff;
 }
 
-.banner-section-text{
+.banner-section-text {
   width: 80%;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   background-color: #fff;
 }
 
-.banner-section-text p{
+.banner-section-text p {
   font-weight: 900;
 }
 
@@ -49,16 +48,15 @@
   font-weight: bold;
 }
 
-.porcentage-text-container{
+.porcentage-text-container {
   display: flex;
   justify-content: end;
 }
 
-.porcentage-right-title{
- 
+.porcentage-right-title {
 }
 
-.porcentage-number{
+.porcentage-number {
   width: 70px;
   font-weight: bolder;
   display: flex;
@@ -66,21 +64,17 @@
   justify-content: end;
 }
 
-.porcentage-number p{
- font-size: 60px;
- font-weight: bolder;
- 
+.porcentage-number p {
+  font-size: 60px;
+  font-weight: bolder;
 }
 
-.porcentage-icon{
+.porcentage-icon {
   font-weight: bolder;
   display: flex;
   flex-direction: column;
   justify-content: end;
-
 }
-
-
 
 .arrow-container {
   position: absolute;
@@ -123,7 +117,6 @@
   background-color: black;
   width: 5px;
   flex: 1;
-  
 }
 
 .porcentage-right-container {
@@ -154,14 +147,14 @@
   height: 100%;
 }
 
-.payment-container{
+.payment-container {
   display: flex;
   flex-wrap: wrap;
   padding: 10px;
-  
+  background-color: #ebebeb;
 }
 
-.padding-container{
+.padding-container {
   display: flex;
   flex-wrap: wrap;
   max-width: 1200px;
@@ -171,15 +164,14 @@
   background-color: white;
 }
 
-.btn-payment-container{
+.btn-payment-container {
   display: flex;
   justify-content: center;
-  width: 250px;
+  width: 270px;
   height: 70px;
-  
 }
 
-.icon-pyament-container{
+.icon-pyament-container {
   width: 15%;
   height: 60%;
   display: flex;
@@ -189,40 +181,39 @@
   border-radius: 100%;
   padding: 5px;
   margin-right: 10px;
-  margin-top: 15px
+  margin-top: 15px;
 }
 
-.icon-credit-card{
+.icon-credit-card {
   font-size: 20px;
   color: blue;
 }
 
-.payment-text-container{
+.payment-text-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
 }
 
-.payment-container-text p{
+.payment-container-text p {
   font-size: 15px;
   font-weight: 800;
 }
 
-.payment-container-link a{
+.payment-container-link a {
   font-size: 12px;
   font-weight: 800;
   text-decoration: none;
 }
 
-.btn-payment-container-plus{
+.btn-payment-container-plus {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   width: 100px;
 }
 
-.icon-pyament-container-plus{
+.icon-pyament-container-plus {
   width: 50%;
   height: 70%;
   display: flex;
@@ -233,7 +224,6 @@
   padding: 5px;
 }
 
-.icon-plus{
+.icon-plus {
   color: blue;
 }
-
