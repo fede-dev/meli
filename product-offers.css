@@ -1,13 +1,11 @@
-.product-offers-container{
+.product-offers-container {
   background-color: #ebebeb;
   margin-top: 30px;
-  flex-wrap: wrap;
 }
 
-.product-offers-porcentage{
+.product-offers-porcentage {
   max-width: 1200px;
   margin: 0 auto;
-  flex-wrap: wrap;
 }
 
 .title-offers-container {
@@ -31,13 +29,18 @@
 .carousel-offers-container {
   width: 100%;
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
   margin-top: 10px;
 }
 
-.card-offer-container{
-  width: 24%;
+.carousel-offers-container > .offers-padding-container:not(:last-child) {
+  padding-right: 10px;
+}
+
+.offers-padding-container {
+  width: 25%;
+}
+
+.card-offer-container {
   height: 300px;
   display: flex;
   flex-direction: column;
@@ -46,7 +49,7 @@
   padding: 10px;
 }
 
-.img-card-offer-container{
+.img-card-offer-container {
   width: 200px;
   height: 200px;
   display: flex;
@@ -55,25 +58,25 @@
   margin-left: 20px;
 }
 
-.img-offer{
+.img-offer {
   width: 100%;
   height: 100%;
 }
 
-.price-offers-container{
+.price-offers-container {
   display: flex;
 }
 
-.offer-price-text .offer-send-text{
+.offer-price-text .offer-send-text {
   padding: 10px;
 }
 
-.offer-price-text{
+.offer-price-text {
   font-weight: bolder;
   font-size: 20px;
 }
 
-.offer-discount-text{
+.offer-discount-text {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -82,7 +85,7 @@
   color: rgb(142, 199, 56);
 }
 
-.offer-send-text{
+.offer-send-text {
   font-size: 15px;
   color: forestgreen;
   margin-top: 10px;
