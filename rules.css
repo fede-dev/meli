@@ -1,0 +1,53 @@
+.rules-container {
+  margin-top: 30px;
+  background-color: #fff;
+}
+
+.rules-porcentage-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.rules-carousel-container {
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+}
+
+.rules-carousel-container > .rules-padding-item-container:not(:last-child) {
+  padding-right: 10px;
+}
+
+.rules-padding-item-container {
+  width: calc(100% / 2);
+}
+
+.rules-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(186, 182, 182, 0.721);
+  border-radius: 5px;
+  padding: 5px;
+  height: 100px;
+}
+
+.rules-regret-container,
+.rules-cancel-container,
+.rules-nosub-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rules-regret-txt,
+.rules-cancel-txt {
+  font-size: 13px;
+}
+
+.rules-nosub-txt {
+  font-size: 13px;
+  color: blue;
+}
