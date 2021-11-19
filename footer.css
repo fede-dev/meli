@@ -1,0 +1,26 @@
+.footer-container {
+  background-color: #fff;
+  margin-top: 30px;
+}
+
+.footer-porcentage-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.footer-items-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  padding: 5px;
+}
+
+.footer-copy {
+  padding: 5px;
+}
+
+.footer-copy-txt {
+  font-size: 12px;
+}
