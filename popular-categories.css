@@ -24,6 +24,7 @@
   display: flex;
   margin-top: 10px;
   background-color: #ebebeb;
+  flex-wrap: wrap;
 }
 
 .popular-carousel-container > .popular-padding-item-container:not(:last-child) {
