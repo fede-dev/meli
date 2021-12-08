@@ -91,3 +91,13 @@
 .benefits-description-subtitle {
   font-weight: 900;
 }
+
+@media screen and (max-width: 480px) {
+  .points-benefits-carousel-container {
+    flex-wrap: wrap;
+  }
+
+  .points-benefits-item-padding-container {
+    width: 100%;
+  }
+}

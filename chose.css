@@ -77,3 +77,16 @@
   font-size: 13px;
   color: blue;
 }
+
+@media screen and (max-width: 480px) {
+  .chose-container {
+    margin: 5px;
+  }
+  .chose-carousel-container {
+    flex-wrap: wrap;
+  }
+
+  .chose-padding-item-container {
+    width: 100%;
+  }
+}
