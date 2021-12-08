@@ -81,3 +81,9 @@
 .cart-icon {
   font-size: 18px;
 }
+
+@media (max-width: 480px) {
+  .navbar-inferior-container {
+    display: none;
+  }
+}

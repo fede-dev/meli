@@ -32,12 +32,13 @@
   margin-top: 10px;
 }
 
-.carousel-offers-container > .offers-padding-container:not(:last-child) {
+/* .carousel-offers-container > .offers-padding-container:not(:last-child) {
   padding-right: 10px;
-}
+} */
 
 .offers-padding-container {
   width: 25%;
+  padding: 5px;
 }
 
 .card-offer-container {
@@ -89,4 +90,13 @@
   font-size: 15px;
   color: forestgreen;
   margin-top: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .carousel-offers-container {
+    flex-wrap: wrap;
+  }
+  .offers-padding-container {
+    width: 100%;
+  }
 }

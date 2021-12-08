@@ -224,3 +224,13 @@
 .icon-plus {
   color: blue;
 }
+
+@media screen and (max-width: 480px) {
+  .btn-payment-container {
+    width: 100%;
+  }
+
+  .btn-payment-container-plus {
+    width: 100%;
+  }
+}

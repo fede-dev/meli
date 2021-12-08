@@ -30,12 +30,13 @@
   margin-top: 10px;
 }
 
-.carousel-container > .card-padding-container:not(:last-child) {
+/* .carousel-container > .card-padding-container:not(:last-child) {
   padding-right: 10px;
-}
+} */
 
 .card-padding-container {
   width: 25%;
+  padding: 5px;
 }
 
 .card-container {
@@ -56,4 +57,14 @@
   padding: 10px;
   font-size: 20px;
   font-weight: bolder;
+}
+
+@media screen and (max-width: 480px) {
+  .carousel-container {
+    flex-wrap: wrap;
+  }
+
+  .card-padding-container {
+    width: 100%;
+  }
 }
